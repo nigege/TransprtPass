@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.transprtpass.dao.LoginDao">
+<insert id="check" parameterType="String">
+insert into test.data(data)
+value(#{name})
+</insert>
+</mapper>
+<!--
+一个mapper文件对应一个dao文件
+mapper文件是用于操作数据库的
+-->
